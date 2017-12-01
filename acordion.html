@@ -1,0 +1,49 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+    <div class="center sliding">Accordion</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+    <!-- <div class="pages navbar-through toolbar-through"> -->
+    <!-- Page, data-page contains page name-->
+    <div data-page="acordion" class="page">
+      <!-- Scrollable page content-->
+      <div class="page-content">
+        <div data-background="img/bg-mobile.jpg" style="height: 50vw; background-size:cover; background-repeat: no-repeat;" class="lazy">
+        </div>
+        <!-- List View -->
+        <div class="content-block-title">List View Accordion</div>
+        <div class="list-block">
+          <ul>
+            <li class="accordion-item"><a href="#" class="item-link item-content">
+                <div class="item-inner">
+                  <div class="item-title">Item 1</div>
+                </div></a>
+              <div class="accordion-item-content">
+                <div class="content-block">
+                  <p>Item 1 content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim viverra velit sed euismod. Mauris sed quam vehicula, dapibus ante a, aliquet augue.</p>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-item"><a href="#" class="item-link item-content">
+                <div class="item-inner">
+                  <div class="item-title">Item 2</div>
+                </div></a>
+              <div class="accordion-item-content">
+                <div class="content-block">
+                  <p>Item 2 content. Lorem ipsum dolor sit amet...</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>          
+    </div>  
+  </div>
+</div>
